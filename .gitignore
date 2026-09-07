@@ -1,6 +1,5 @@
-.gradle
-!**/src/**/build/
-
-
-
-.project
+.gradle/
+build/
+out/
+bin/
+.idea/
