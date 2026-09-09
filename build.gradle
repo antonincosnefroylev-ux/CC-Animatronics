@@ -147,10 +147,16 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
             minecraft_version_range: "[${minecraft_version}]",
             neo_version            : neo_version,
             loader_version_range   : loader_version_range,
+            fml_loader_version_range:fml_loader_version_range,
+            create_version         : create_version,
+            computercraft_version  : computercraft_version,
+            simulated_version      : simulated_version,
             mod_id                 : mod_id,
             mod_name               : mod_name,
             mod_license            : mod_license,
             mod_version            : mod_version,
+            mod_author             : mod_author,
+            mod_description        : mod_description,
     ]
     inputs.properties replaceProperties
     expand replaceProperties
