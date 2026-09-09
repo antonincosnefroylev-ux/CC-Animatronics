@@ -43,7 +43,7 @@ neoForge {
 
     parchment {
         mappingsVersion = project.parchment_mappings_version
-        minecraftVersion = project.parchment_minecraft_version
+        minecraftVersion = project.minecraft_version
     }
 
     // This line is optional. Access Transformers are automatically detected
@@ -144,7 +144,7 @@ dependencies {
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
     var replaceProperties = [
             minecraft_version      : minecraft_version,
-            minecraft_version_range: minecraft_version_range,
+            minecraft_version_range: "[${minecraft_version}]",
             neo_version            : neo_version,
             loader_version_range   : loader_version_range,
             mod_id                 : mod_id,
