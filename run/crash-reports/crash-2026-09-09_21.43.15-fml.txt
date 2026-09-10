@@ -1,0 +1,92 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 2026-09-09 21:43:15
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Mod loading issue for: ccanimatronics --
+Details:
+	Mod file: /C:/Users/RVCOS/Documents/Projetcs/Programmes/CC Animatronics/MDK-1.21.1-ModDevGradle-main/build/classes/java/main/
+	Failure message: Mod ccanimatronics requires computercraft 1.112.0 or above
+		Currently, computercraft is not installed
+		
+	Mod version: 1.0.0
+	Mod issues URL: <No issues URL found>
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: ccanimatronics --
+Details:
+	Mod file: /C:/Users/RVCOS/Documents/Projetcs/Programmes/CC Animatronics/MDK-1.21.1-ModDevGradle-main/build/classes/java/main/
+	Failure message: Mod ccanimatronics requires create 6.0.0 or above
+		Currently, create is not installed
+		
+	Mod version: 1.0.0
+	Mod issues URL: <No issues URL found>
+	Exception message: <No associated exception found>
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 21.0.10, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 112472992 bytes (107 MiB) / 436207616 bytes (416 MiB) up to 3196059648 bytes (3048 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i3-5005U CPU @ 2.00GHz
+	Identifier: Intel64 Family 6 Model 61 Stepping 4
+	Microarchitecture: Broadwell (Client)
+	Frequency (GHz): 2.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: Intel(R) HD Graphics 5500
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 1024.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 20.19.15.5107
+	Graphics card #1 name: NVIDIA GeForce 920M
+	Graphics card #1 vendor: NVIDIA
+	Graphics card #1 VRAM (MiB): 1024.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 24.21.13.9924
+	Memory slot #0 capacity (MiB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 1.60
+	Memory slot #0 type: DDR3
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 1.60
+	Memory slot #1 type: DDR3
+	Virtual memory max (MiB): 26532.26
+	Virtual memory used (MiB): 14562.39
+	Swap memory total (MiB): 14343.11
+	Swap memory used (MiB): 1101.75
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 620117.81, total: 976083.88
+	Space in storage for workdir (MiB): available: 620117.81, total: 976083.88
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.44.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.44.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.44.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		neoforge-21.1.249.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.249.jar                             |NeoForge                      |neoforge                      |21.1.249            |Manifest: NOSIGNATURE
